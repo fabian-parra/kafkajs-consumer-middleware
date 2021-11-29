@@ -1,7 +1,7 @@
 {
-  "name": "kafka-consumer-middleware",
+  "name": "kafkajs-consumer-middleware",
   "version": "1.0.0",
-  "description": "library for add middleware to kafka consumers",
+  "description": "library for add middleware to kafkajs consumers",
   "main": "index.js",
   "scripts": {
     "start": "node test.js"
