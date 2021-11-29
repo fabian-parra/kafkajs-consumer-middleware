@@ -10,7 +10,7 @@ This library is addon for [kafkajs](https://www.npmjs.com/package/kafkajs) packa
 ```
 // Import kafkajs package
 const { Kafka } = require('kafkajs')
-const kafkaConsumerMiddleware = require('kafkajs-middleware-consumer')
+const kafkaConsumerMiddleware = require('kafkajs-consumer-middleware')
 
 // Create kafka instance
 const kafka = new Kafka({
@@ -26,7 +26,7 @@ const consumer = kafkaConsumerMiddleware(kafka.consumer({ groupId: 'test-group' 
 // Now you can use a middleware function
 consumer.use(async (data, next) => {
   //Do stuff before message consuming
-  console.log('Middleware', info)
+  console.log('Middleware', data)
   return next()
 })
 

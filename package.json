@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fabian-parra/kafkajs-consumer-middleware.git"
+  },
   "keywords": [
     "kafka",
     "consumer",
