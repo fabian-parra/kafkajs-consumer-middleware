@@ -1,6 +1,6 @@
 {
   "name": "kafkajs-consumer-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library for add middleware to kafkajs consumers",
   "main": "index.js",
   "scripts": {
