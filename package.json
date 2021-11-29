@@ -1,0 +1,19 @@
+{
+  "name": "kafka-consumer-middleware",
+  "version": "1.0.0",
+  "description": "library for add middleware to kafka consumers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "keywords": [
+    "kafka",
+    "consumer",
+    "middleware"
+  ],
+  "author": "fabian_parram",
+  "license": "MIT",
+  "devDependencies": {
+    "kafkajs": "^1.15.0"
+  }
+}
